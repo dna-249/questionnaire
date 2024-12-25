@@ -18,6 +18,7 @@ function App() {
     setInput(''),
     setInput2(''),
     setInput3('')
+    alert("you can't summit incomplete response data")
    } else {
     const nur ={
       Fullname:input,Religion:input2,Response:input3
@@ -25,7 +26,7 @@ function App() {
     setInputs(()=> [nur]),
     setChat2(()=> false )
    }
-   alert(input)
+   
   }
   
   return (
