@@ -2,7 +2,7 @@ import { useState,useEffect } from 'react'
 import io from "socket.io-client";
 const socket = io.connect("http://localhost:3001" )
 
-function App() {
+function Chat() {
   const [input, setInput]= useState('')
   const [show, setShow]= useState(false)
   const [show2, setShow2]= useState(false)
@@ -65,7 +65,7 @@ const handleJoin =()=>{
           <input className="username2" type="text"
           placeholder='password...'onChange={(e)=>setInput(e.target.value)} />
         </div>
-              <button  className='button' onClick={()=>handleJoin()}> login</button>
+              <button style={{marginTop:'10px'}}  className='button' onClick={()=>handleJoin()}> login</button>
       </div>
       </div>
      ):(
@@ -120,4 +120,4 @@ const handleJoin =()=>{
   )
 }
 
-export default App
+export default Chat

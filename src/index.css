@@ -5,6 +5,38 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
+    
+}
+.grid2{
+    
+    background-color: aliceblue;
+    padding:10%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+}
+.grid2 h3{
+    color:rgb(41, 79, 41);
+    font-style: italic;
+
+    font-size:25px ;
+    margin-top:70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+.grid2 h4{
+    color:gray;
+    font-size:20px ;
+    margin-top:10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border: 1px solid rgba(128, 128, 128, 0.461);
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+    padding: 5px;
 }
 .head{
     color: rgb(8, 8, 107);
