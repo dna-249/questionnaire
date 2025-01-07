@@ -1,187 +1,32 @@
-.grid{
-    display: grid;
-    background-color: aliceblue;
-    padding:2%;
+
+body{
+    background-color: #fdfbfbd4;
+}
+.center{
+    display:grid;
     align-items: center;
     justify-content: center;
-    justify-items: center;
-    
+    margin: auto;
 }
-.grid2{
-    
-    background-color: aliceblue;
-    padding:10%;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    height: 100vh;
-}
-.grid2 h3{
-    color:rgb(41, 79, 41);
-    font-style: italic;
-
-    font-size:25px ;
-    margin-top:70px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
-
-}
-.grid2 h4{
-    color:gray;
-    font-size:20px ;
-    margin-top:10px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    border: 1px solid rgba(128, 128, 128, 0.461);
-    border-radius: 10px;
-    width: 250px;
-    height: 100px;
-    padding: 5px;
-}
-.head{
-    color: rgb(8, 8, 107);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    text-decoration:underline  ;
-    font-style: italic;
-    font-stretch: condensed;
-    
-}
-.input{
-    outline: none;
-    width: 200px;
-    padding: 10px; 
-    border-radius: 5px;
-    color: green;
-
-}
-
-
-
-
-
-.chatRoom{
-    display:grid;
-    grid-template-rows:auto auto;
-    border:2px solid green;
-    min-height:300px;
-    width:600px;
-    background-color:aliceblue;
-    margin:auto;
-}
-
-
-.friend{
-    display:grid;
+.home{
+    color: rgba(69, 68, 68, 0.817);
+    background-color:#fff;
     width: 100%;
-    min-height: 100px;
-    grid-template-columns:40px auto;
-    align-items:center;  
-    border:none;
-    
-    
-    
-}
-.friend h3{
- border-radius:50%;
- background-color:pink;
- color:green;
- padding:10px;
-}
-.friend h4{
-    background-color:rgb(201, 219, 235);
-    border-radius: 5px;
-    padding: 5px;
-    width: 100px;
-}
-#right{
-    justify-self: right;
-    color:blanchedalmond;
-    background-color: blue;
-    border: none;
-    padding: 5px;
-    width: 100px; 
-    margin-top: 10px;
-    border-radius: 5px;
-
 }
 
-#left{
-    
-   
-    justify-self: left;
-    background-color: rgb(41, 169, 41);
-    border: none;
-    padding: 5px;
-    width: 100px;
-    margin-top: 10px;
-    color: white;
-    border-radius: 5px;
-}
-
-.chat{
-    
-    display:grid;
-    border: none;
-    width: 400px;
-
-}
-.login{
-    display: grid;
-
-    width: 300px;
-    height: 300px;
-    border: 1px solid rgba(0, 128, 0, 0.423);
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    background: #fff;
-    text-align: center;
-    margin: auto;
-}
-.login2{
-    display: grid;
-    width: 300px;
-    height: 300px;
-    border: 1px solid green;
-    border-radius: 10px;
-    margin: auto;
-}
-
-.username {
-    margin-top: 10px;
-    padding: 10px; 
-    border-radius: 10px;
-    border: none;
-    background-color: rgba(240, 248, 255, 0.418);
-    color: greenyellow;
-    font-size: medium;
-    outline: none;
-    border: 2px solid greenyellow;
- }
- .username2 {
-   margin-top: 10px;
-   padding: 10px; 
-   border-radius: 10px;
-   border: none;
-   background-color: rgba(240, 248, 255, 0.418);
-   color: blue;
-   font-size: medium;
-   outline: none;
-   border: 2px solid blue;
-}
-
-.button{
-    background-color: rgb(32, 150, 32);
-    color: white;
-    border-radius: 5px;
+.home h4{
+    background-color: rgba(5, 5, 84, 0.57);
     padding: 10px;
-    width: 100px;
-    border: none;
-   display: grid;
-   margin: auto;
-   font-size:15px ;
+    color: white;
+    margin-top:50px ;
 }
-.button:hover{
-    background-color:  rgb(118, 201, 118);
+.home ul{
+    color:rgb(29, 70, 30);
+    list-style: none;
+    margin-left: -20px;
+}
+.img{
+    position: absolute;
+    border-radius: 10px;
+    right: 10px;
 }
